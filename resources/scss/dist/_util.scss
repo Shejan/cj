@@ -4,7 +4,8 @@
 .inner{
     position: relative;
     height:100%;
-    padding-top:100px;
+    padding-top:50px;
+
   }
 .maroon-box{
 		display:block;
@@ -15,11 +16,13 @@
 		background: -webkit-linear-gradient(top, rgba(156,27,67,1) 0%,rgba(40,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
 		background: linear-gradient(to bottom, rgba(156,27,67,1) 0%,rgba(40,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c1b43', endColorstr='#280e0e',GradientType=0 ); /* IE6-9 */
-		.content-holder{
+}
+.content-holder{
 			position:relative;
 			display:block;
 			border: 2px solid #ffffff;
 			background: transparent;
+			margin-top:50px;
 			margin-left:2%;
 			margin-right:2%;
 			.content-head{
@@ -40,5 +43,31 @@
 					margin-bottom:20px;
 				}
 			}
+
 		}
+.bg{
+	display:block;
+	height:100%;
+	background:rgba(0,0,0,0.7);
+}
+.img-overlay{
+	display:block;
+	position:absolute;
+	height:100%;
+	weight:100%;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.9);
+}
+.counter{
+	background:rgba(255, 99, 132, 0.5);
+	padding:60px 50px;
+	margin:40px auto;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	text-align:center;
+	.count{
+		color:#ffffff;
+	}
 }
