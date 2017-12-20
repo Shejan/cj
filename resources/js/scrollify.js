@@ -1,4 +1,3 @@
-
 /*!
  * jQuery Scrollify
  * Version 1.0.19

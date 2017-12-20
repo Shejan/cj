@@ -1,0 +1,44 @@
+.navbar-brand{
+	padding:0px;
+}
+.inner{
+    position: relative;
+    height:100%;
+    padding-top:100px;
+  }
+.maroon-box{
+		display:block;
+		position:relative;
+		color:#ffffff;
+		background: rgb(156,27,67); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(156,27,67,1) 0%, rgba(40,14,14,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(156,27,67,1) 0%,rgba(40,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(156,27,67,1) 0%,rgba(40,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c1b43', endColorstr='#280e0e',GradientType=0 ); /* IE6-9 */
+		.content-holder{
+			position:relative;
+			display:block;
+			border: 2px solid #ffffff;
+			background: transparent;
+			margin-left:2%;
+			margin-right:2%;
+			.content-head{
+				position:absolute;
+				border: 2px solid #ffffff;
+				background:rgb(156,27,67);
+				top:-30px;
+				left:50px;
+				padding-left:20px;
+				padding-right:20px;
+				padding-bottom:10px;
+
+			}
+			.content-body{
+				padding-top:50px;
+				padding-bottom:50px;
+				.client-logo{
+					margin-bottom:20px;
+				}
+			}
+		}
+}
